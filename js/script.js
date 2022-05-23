@@ -29,7 +29,7 @@ function createPagination(){
             paginationHTML += `<li><a>${i}</a></li>`;
         }
     }
-    // add the closing tag for ul element for pagination
+    // add the closing tag for the ul element for pagination
     paginationHTML += `</ul>`;
     console.log(paginationHTML);
     // insert the pagination ul element before end of div.page element
@@ -56,7 +56,7 @@ function displayContacts(){
 
 }
 
-//3. function to be call when the page number is being clicked
+//3. function to be called when the page number link is being clicked
 function changePage(e){
     // set current Page number to be the page number extracted from the link being clicked
     currentPage = parseInt(e.target.textContent);
